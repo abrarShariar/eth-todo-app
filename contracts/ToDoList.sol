@@ -24,7 +24,11 @@ contract ToDoList {
         tasks[taskCount] = Task(taskCount, _content, false);
     }
 
-    function showTask (uint id) {
-        return tasks[id];
-    }
+    // DEBUG this shit
+    // function getTask (uint id) public returns (Task memory) {
+    //     return tasks[id];
+    // }
+
+    
+
 }

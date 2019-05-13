@@ -12,3 +12,9 @@
 > toDoList.createTask("My New Task")
 > toDoList.tasks(1)
 ```
+
+
+```
+npm run dev
+
+```
